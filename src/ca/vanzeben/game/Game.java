@@ -77,11 +77,11 @@ public class Game extends Canvas implements Runnable {
 				shouldRender = true;
 			}
 
-//			try {
-//				Thread.sleep(2);
-//			} catch (InterruptedException e) {
-//				e.printStackTrace();
-//			}
+			 try {
+			 Thread.sleep(2);
+			 } catch (InterruptedException e) {
+			 e.printStackTrace();
+			 }
 
 			if (shouldRender) {
 				frames++;
